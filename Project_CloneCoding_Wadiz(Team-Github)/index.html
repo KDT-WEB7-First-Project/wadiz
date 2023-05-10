@@ -1,288 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="initial.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
-    <header>
-        <div class="header_logo">
-            <a href="https://www.wadiz.kr/web/main"><h1>wadiz</h1></a>
+<header>
+    <div class="header_logo">
+        <a href="https://www.wadiz.kr/web/main">
+            <h1>wadiz</h1>
+        </a>
+    </div>
+    <div class="header_nav">
+        <ul>
+            <li>오픈예정</li>
+            <li>펀딩 +</li>
+            <li>프리오더</li>
+            <li>스토어</li>
+            <li>더보기</li>
+        </ul>
+    </div>
+    <div class="header_util">
+        <input type="search" placeholder="새로운 일상이 필요하신가요?">
+        <button class="header_util_button1">로그인</button>
+        <button class="header_util_button1">회원가입</button>
+        <button class="header_util_button2"> 프로젝트 만들기</button>
+    </div>
+</header>
+<div style="overflow:hidden" class="slider_hidden">
+
+    <section class="slider">
+        <div class="img1">
+            <img src="./image/banner_1.jpg" alt="">
+            <p class="slider_text text1">펀딩은 어디?<br>와디즈와 함께해요!</p>
         </div>
-        <div class="header_nav">
+        <div class="img2">
+            <img src="./image/banner_2.jpeg" alt="">
+            <p class="slider_text text2">예쁜 신발은<br>와디즈에서!</p>
+        </div>
+        <div class="img3">
+            <img src="./image/banner_3.jpg" alt="">
+            <p class="slider_text text3">5월은 가정의 달<br>부모님 선물도!</p>
+        </div>
+        <div class="img4">
+            <img src="./image/banner_4.jpg" alt="">
+            <p class="slider_text text4">스토어는 바로배송<br>신규 입점 상품 배송</p>
+        </div>
+        <div class="img5">
+            <img src="./image/banner_5.png" alt="">
+            <p class="slider_text text5">펀딩은 어디?<br>와디즈와 함께해요!</p>
+        </div>
+        <div class="img6">
+            <img src="./image/banner_6.jpg" alt="">
+            <p class="slider_text text6">먼저 사용해보세요<br>무료 사용단 이벤트</p>
+        </div>
+        <div class="img7">
+            <img src="./image/banner_7.jpg" alt="">
+            <p class="slider_text text7">기능성이 안맞으세요?<br>기초 율립으로 바꿔보세요</p>
+        </div>
+        <div class="img8">
+            <img src="./image/banner_8.jpg" alt="">
+            <p class="slider_text text8">지금 가장 인기 있는<br>BEST 프로젝트</p>
+        </div>
+    </section>
+
+    <section class="slider_btn">
+        <button class="for">
+            <div class="slider_btn_div">
+                <svg viewBox="0 0 40 40">
+                    <path id="color" d="M12 20L25 7l1.4 1.4L14.8 20l11.6 11.6L25 33 12 20z"></path>
+                </svg>
+            </div>
+        </button>
+
+        <button class="back">
+            <div class="slider_btn_div">
+                <svg viewBox="0 0 40 40">
+                    <path id='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                </svg>
+            </div>
+        </button>
+    </section>
+
+    <section class="bar">
+        <div class="back-bar"></div>
+        <div class="front-bar"></div>
+    </section>
+
+
+
+</div>
+<main>
+    <div class="main_left">
+        <div>
+            <h2 class="h2 main_h2">취향 맞춤 프로젝트</h2>
+            <p class="p main_p">지금 함께 만드는 성공</p>
+        </div>
+        <div class="main_left_contents">
+            <div class="main_left_contents_1">
+                <div class="main_left_content">
+                    <a href="./sub_Page.html"><img src="image/main_left_content1.png"></a>
+                    <p class="main_left_content_p1">인스타그램 & 블로그 운영부터 수익창출 노하우</p>
+                    <p class="main_left_content_p3"><span class="main_left_content_p2">32%</span> 출판</p>
+                </div>
+                <div class="main_left_content">
+                    <img src="image/main_left_content2.jpg">
+                    <p class="main_left_content_p1">누구도 알려주지 않는 해외 신규 거래처 발굴 비법 PDF 전자책</p>
+                    <p class="main_left_content_p3"><span class="main_left_content_p2">10%</span> 출판</p>
+                </div>
+                <div class="main_left_content">
+                    <img src="image/main_left_content3.jpg">
+                    <p class="main_left_content_p1">"그들은 사교육으로 어떻게 돈을<br>쓸어담는가" - 전자책 출판</p>
+                    <p class="main_left_content_p3"><span class="main_left_content_p2">7%</span> 출판</p>
+                </div>
+            </div>
+
+            <div class="main_left_contents_1">
+                <div class="main_left_content">
+                    <img src="image/main_left_content4.jpeg">
+                    <p class="main_left_content_p1">케냐 아이들에게 희망을 선물해주세요</p>
+                    <p class="main_left_content_p3"><span class="main_left_content_p2">26%</span> 후원</p>
+                </div>
+                <div class="main_left_content2">
+                    <img src="image/main_left_content5.jpg">
+                    <p class="main_left_content_p1"><span>기획전</span>&nbsp&nbsp&nbsp알림신청 TOP 20</p>
+                </div>
+            </div>
+        </div>
+        <div class="main_left_recommend">
+            <button><span style="color : rgb(12, 169, 101)">AI</span>추천 더보기 1/3</button>
+        </div>
+    </div>
+    <div class="main_right">
+        <div>
+            <h2 class="h2 main_h2">실시간 랭킹</h2>
+        </div>
+        <div class="main_right_toggle">
+            <button id="main_right_toggle_1">
+                <p id='main_right_toggle_select_id1' class="main_right_toggle_select">펀딩/프리오더</p>
+            </button>
+            <button id="main_right_toggle_2">
+                <p id='main_right_toggle_select_id2'>스토어</p>
+            </button>
+        </div>
+        <div class="main_right_nav">
+
+            <div class="toggle_main_right_nav_list">
+                <div class="main_right_nav_list">
+                    <h2>1</h2>
+                    <p>[네덜란드 공식수입] 우리가 아는 그<br>초코링, 밀크초콜릿맛 첫 런칭<br><span class="main_left_content_p2">8,496%</span><span
+                            class="main_left_content_p3"> 푸드</span></p>
+                    <img src="image/main_right_nav_list1.png" alt="">
+                </div>
+                <div class="main_right_nav_list">
+                    <h2>2</h2>
+                    <p>밀폐와 보냉은 기본, 돌돌 접히는<br>휴대성까지 | 100% 실리콘 돌돌 텀블러<br><span
+                            class="main_left_content_p2">5,621%</span><span class="main_left_content_p3"> 홈·리빙</span>
+                    </p>
+                    <img src="image/main_right_nav_list2.png" alt="">
+                </div>
+                <div class="main_right_nav_list">
+                    <h2>3</h2>
+                    <p>목전체를 감싸는 압도적인 시원함!<br>[NEW 스타일리쉬] 블루필 넥쿨러<br><span
+                            class="main_left_content_p2">2,406%</span><span class="main_left_content_p3"> 홈·리빙</span>
+                    </p>
+                    <img src="image/main_right_nav_list3.jpg" alt="">
+                </div>
+                <div class="main_right_nav_list">
+                    <h2>4</h2>
+                    <p>[한정수량] 1년 숙성 프리미엄 증류주,<br>백제소주 2022 vintage<br><span
+                            class="main_left_content_p2">4,206%</span><span class="main_left_content_p3"> 푸드</span></p>
+                    <img src="image/main_right_nav_list4.png" alt="">
+                </div>
+                <div class="main_right_nav_list">
+                    <h2>5</h2>
+                    <p>[16억 아렌시아] 한국을 뒤흔든 화제의<br>떡솝, 역대 1위 인생클렌저<br><span
+                            class="main_left_content_p2">103,051%</span><span class="main_left_content_p3"> 뷰티</span>
+                    </p>
+                    <img src="image/main_right_nav_list5.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="toggle_main_right_nav_list2 d_none">
+                <div class="main_right_nav_list2">
+                    <h2>1</h2>
+                    <p>5개 동시 고속충전가능 쿨린MAX<br>50000mAh보조배터리<br><span class="main_left_content_p2">54,900</span><span
+                            style="font-size:12px; font-weight : 500;">원</span> ⭐4.5
+                        <span class="main_right_nav_list2_delivery">
+                            무료배송
+                        </span>
+                        <span class="main_right_nav_list2_delivery">
+                            <img src="image/car.png"> 와배송
+                        </span>
+                    </p>
+                    <img src="image/main_right_nav2_list1.jpg" alt="">
+                </div>
+                <div class="main_right_nav_list2">
+                    <h2>2</h2>
+                    <p>착착착 붙이면 효과가 배가되는 메이드조이<br>5W 감전 살충기<br><span class="main_left_content_p2">39,000</span><span
+                            style="font-size:12px; font-weight : 500;">원</span> ⭐5.0
+                        <span class="main_right_nav_list2_delivery">
+                            <img src="image/car.png"> 와배송
+                        </span>
+                    </p>
+                    <img src="image/main_right_nav2_list2.jpg" alt="">
+                </div>
+                <div class="main_right_nav_list2">
+                    <h2>3</h2>
+                    <p>[벌써와배송]보존기간 3배 곰돌이 푸 캐릭<br>터와 만난 반찬통의 혁명 푸레시<br><span
+                            class="main_left_content_p2">34,900</span><span
+                            style="font-size:12px; font-weight : 500;">원</span> ⭐4.7
+                        <span class="main_right_nav_list2_delivery">
+                            무료배송
+                        </span>
+                        <span class="main_right_nav_list2_delivery">
+                            <img src="image/car.png"> 와배송
+                        </span>
+                    </p>
+                    <img src="image/main_right_nav2_list3.jpg" alt="">
+                </div>
+                <div class="main_right_nav_list2">
+                    <h2>4</h2>
+                    <p>[NUPHY] 누피 Halo75 기계식 키보드 블루<br>투스 무선 유선 헤일로<br><span
+                            class="main_left_content_p2">219,000</span><span
+                            style="font-size:12px; font-weight : 500;">원</span> ⭐4.5
+                        <span class="main_right_nav_list2_delivery">
+                            무료배송
+                        </span>
+                    </p>
+                    <img src="image/main_right_nav2_list4.jpg" alt="">
+                </div>
+                <div class="main_right_nav_list2">
+                    <h2>5</h2>
+                    <p>[펠리칸 케이스] 프로들의 아이덴티티 1535<br>AIR DESERT TAN<br><span
+                            class="main_left_content_p2">381,000</span><span
+                            style="font-size:12px; font-weight : 500;">원</span> ⭐5.0
+                        <span class="main_right_nav_list2_delivery">
+                            무료배송
+                        </span>
+                    </p>
+                    <img src="image/main_right_nav2_list5.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer_hr">
+        <div class="footer_hr_left">
             <ul>
-                <li>오픈예정</li>
-                <li>펀딩 +</li>
-                <li>프리오더</li>
-                <li>스토어</li>
-                <li>더보기</li>
+                <li>정책 · 약관&nbsp<svg viewBox="0 0 40 40" class="rotate">
+                        <path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+                <li><b>개인정보처리방침&nbsp</b><svg viewBox="0 0 40 40" class="rotate">
+                        <path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
             </ul>
         </div>
-        <div class="header_util">
-            <input type="search" placeholder="새로운 일상이 필요하신가요?">
-            <button class="header_util_button1">로그인</button>
-            <button class="header_util_button1">회원가입</button>
-            <button class="header_util_button2"> 프로젝트 만들기</button>
+        <div class="footer_hr_right">
+            <ul>
+                <li>제휴문의&nbsp<svg viewBox="0 0 40 40" class="rotate">
+                        <path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+                <li>공지사항&nbsp<svg viewBox="0 0 40 40">
+                        <path d="M31.42 35.84h-27V8.4h14.76v-2H2.42v31.44h31V22.55h-2v13.29z"></path>
+                        <path d="M37.32 15.41l-.01-13-12.99.01v2l9.72-.01-18.19 19.42 1.46 1.37 18-19.22.01 9.43h2z">
+                        </path>
+                    </svg></li>
+                <li>인재채용&nbsp<svg viewBox="0 0 40 40">
+                        <path d="M31.42 35.84h-27V8.4h14.76v-2H2.42v31.44h31V22.55h-2v13.29z"></path>
+                        <path d="M37.32 15.41l-.01-13-12.99.01v2l9.72-.01-18.19 19.42 1.46 1.37 18-19.22.01 9.43h2z">
+                        </path>
+                    </svg></li>
+                <li>SNS&nbsp<svg viewBox="0 0 40 40" class="rotate">
+                        <path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+                <li><b>Language</b>&nbsp<svg viewBox="0 0 40 40" class="rotate">
+                        <path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+            </ul>
         </div>
-    </header>
-    <div style="overflow:hidden" class="slider_hidden">
-        
-        <section class="slider">
-            <div class="img1">
-                <img src="./image/banner_1.jpg" alt="">
-                <p class="slider_text text1">펀딩은 어디?<br>와디즈와 함께해요!</p>
-            </div>
-            <div class="img2">
-                <img src="./image/banner_2.jpeg" alt="">
-                <p class="slider_text text2">예쁜 신발은<br>와디즈에서!</p>
-            </div>
-            <div class="img3">
-                <img src="./image/banner_3.jpg" alt="">
-                <p class="slider_text text3">5월은 가정의 달<br>부모님 선물도!</p>
-            </div>
-            <div class="img4">
-                <img src="./image/banner_4.jpg" alt="">
-                <p class="slider_text text4">스토어는 바로배송<br>신규 입점 상품 배송</p>
-            </div>
-            <div class="img5">
-                <img src="./image/banner_5.png" alt="">
-                <p class="slider_text text5">펀딩은 어디?<br>와디즈와 함께해요!</p>
-            </div>
-            <div class="img6">
-                <img src="./image/banner_6.jpg" alt="">
-                <p class="slider_text text6">먼저 사용해보세요<br>무료 사용단 이벤트</p>
-            </div>
-            <div class="img7">
-                <img src="./image/banner_7.jpg" alt="">
-                <p class="slider_text text7">기능성이 안맞으세요?<br>기초 율립으로 바꿔보세요</p>
-            </div>
-            <div class="img8">
-                <img src="./image/banner_8.jpg" alt="">
-                <p class="slider_text text8">지금 가장 인기 있는<br>BEST 프로젝트</p>
-            </div>
-        </section>
-
-        <section class="slider_btn">
-            <button class="for">
-                <div class="slider_btn_div">
-                    <svg viewBox="0 0 40 40">
-                        <path id = "color" d="M12 20L25 7l1.4 1.4L14.8 20l11.6 11.6L25 33 12 20z"></path>
-                    </svg>
-                </div>
-            </button>
-
-            <button class="back">
-                <div class="slider_btn_div">
-                    <svg viewBox="0 0 40 40">
-                        <path id ='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
-                    </svg>
-                </div>
-            </button>
-        </section>
-
-        <section class="bar">
-            <div class="back-bar"></div>
-            <div class="front-bar"></div>
-        </section>
-
-
-
     </div>
-    <main>
-        <div class="main_left">
+</footer>
+<footer style="border:0px">
+    <div class="footer_text">
+        <div class="footer_text_left">
+            <span class="what"></span>
+            <p class='cs'>&nbsp&nbsp와디즈 고객센터</p>
+            <ul>
+                <li>채팅 상담하기&nbsp&nbsp<svg viewBox="0 0 40 40">
+                        <path id='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+                <li>문의 등록하기&nbsp&nbsp<svg viewBox="0 0 40 40">
+                        <path id='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+                <li>도움말 센터 바로가기&nbsp&nbsp<svg viewBox="0 0 40 40">
+                        <path id='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
+                    </svg></li>
+            </ul>
+            <hr>
+            <p>상담 가능 시간</p>
+            <p>평일 오전 9시 ~ 오후 6시 (주말, 공휴일 제외)</p>
+        </div>
+        <div class="footer_text_right">
+            <p>와디즈(주) | 대표이사 신혜성 | 사업자등록번호 258-87-01370 | 통신판매업신고번호 2021-성남분당C-1153 | 경기 성남시 분당구 판교로 242 PDC A동
+                402호<br>이메일 상담 info@wadiz.kr | 유선 상담 1661-9056 &nbsp;<b>©wadiz Co., Ltd.</b></p>
+            <p>
+                일부 상품의 경우 와디즈는 통신판매중개자이며 통신판매 당사자가 아닙니다.<br>해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서
+                구체적인 내용을 확인하시기 바랍니다.
+            </p>
             <div>
-                <h2 class="h2 main_h2">취향 맞춤 프로젝트</h2>
-                <p class="p main_p">지금 함께 만드는 성공</p>
-            </div>
-            <div class="main_left_contents">
-                <div class="main_left_contents_1">
-                    <div class="main_left_content">
-                        <img src="image/main_left_content1.png">
-                        <p class = "main_left_content_p1">인스타그램 & 블로그 운영부터 수익창출 노하우</p>
-                        <p class = "main_left_content_p3"><span class="main_left_content_p2">32%</span> 출판</p>
-                    </div>
-                    <div class="main_left_content">
-                        <img src="image/main_left_content2.jpg">
-                        <p class = "main_left_content_p1">누구도 알려주지 않는 해외 신규 거래처 발굴 비법 PDF 전자책</p>
-                        <p class = "main_left_content_p3"><span class="main_left_content_p2">10%</span> 출판</p>
-                    </div>
-                    <div class="main_left_content">
-                        <img src="image/main_left_content3.jpg">
-                        <p class = "main_left_content_p1">"그들은 사교육으로 어떻게 돈을<br>쓸어담는가" - 전자책 출판</p>
-                        <p class = "main_left_content_p3"><span class="main_left_content_p2">7%</span> 출판</p>
-                    </div>
-                </div>
-
-                <div class="main_left_contents_1">
-                    <div class="main_left_content">
-                        <img src="image/main_left_content4.jpeg">
-                        <p class = "main_left_content_p1">케냐 아이들에게 희망을 선물해주세요</p>
-                        <p class = "main_left_content_p3"><span class="main_left_content_p2">26%</span> 후원</p>
-                    </div>
-                    <div class = "main_left_content2">
-                        <img src="image/main_left_content5.jpg">
-                        <p class = "main_left_content_p1"><span>기획전</span>&nbsp&nbsp&nbsp알림신청 TOP 20</p>
-                    </div>
-                </div>
-            </div>
-            <div class="main_left_recommend">
-                <button><span style="color : rgb(12, 169, 101)">AI</span>추천 더보기 1/3</button>
-            </div>
-        </div>
-        <div class="main_right">
-            <div>
-                <h2 class="h2 main_h2">실시간 랭킹</h2>
-            </div>
-            <div class="main_right_toggle">
-                <button id="main_right_toggle_1"><p id='main_right_toggle_select_id1' class="main_right_toggle_select">펀딩/프리오더</p></button>
-                <button id="main_right_toggle_2"><p id='main_right_toggle_select_id2' >스토어</p></button>
-            </div>
-            <div class="main_right_nav">
-
-                <div class="toggle_main_right_nav_list">
-                    <div class="main_right_nav_list">
-                        <h2>1</h2>
-                        <p>[네덜란드 공식수입] 우리가 아는 그<br>초코링, 밀크초콜릿맛 첫 런칭<br><span class="main_left_content_p2">8,496%</span><span class = "main_left_content_p3"> 푸드</span></p>
-                        <img src="image/main_right_nav_list1.png" alt="">
-                    </div>
-                    <div class="main_right_nav_list">
-                        <h2>2</h2>
-                        <p>밀폐와 보냉은 기본, 돌돌 접히는<br>휴대성까지 | 100% 실리콘 돌돌 텀블러<br><span class="main_left_content_p2">5,621%</span><span class = "main_left_content_p3"> 홈·리빙</span></p>
-                        <img src="image/main_right_nav_list2.png" alt="">
-                    </div>
-                    <div class="main_right_nav_list">
-                        <h2>3</h2>
-                        <p>목전체를 감싸는 압도적인 시원함!<br>[NEW 스타일리쉬] 블루필 넥쿨러<br><span class="main_left_content_p2">2,406%</span><span class = "main_left_content_p3"> 홈·리빙</span></p>
-                        <img src="image/main_right_nav_list3.jpg" alt="">
-                    </div>
-                    <div class="main_right_nav_list">
-                        <h2>4</h2>
-                        <p>[한정수량] 1년 숙성 프리미엄 증류주,<br>백제소주 2022 vintage<br><span class="main_left_content_p2">4,206%</span><span class = "main_left_content_p3"> 푸드</span></p>
-                        <img src="image/main_right_nav_list4.png" alt="">
-                    </div>
-                    <div class="main_right_nav_list">
-                        <h2>5</h2>
-                        <p>[16억 아렌시아] 한국을 뒤흔든 화제의<br>떡솝, 역대 1위 인생클렌저<br><span class="main_left_content_p2">103,051%</span><span class = "main_left_content_p3"> 뷰티</span></p>
-                        <img src="image/main_right_nav_list5.jpg" alt="">
-                    </div>
-                </div>  
-
-                <div class="toggle_main_right_nav_list2 d_none">
-                    <div class="main_right_nav_list2">
-                        <h2>1</h2>
-                        <p>5개 동시 고속충전가능 쿨린MAX<br>50000mAh보조배터리<br><span class="main_left_content_p2">54,900</span><span style="font-size:12px; font-weight : 500;">원</span> ⭐4.5
-                            <span class="main_right_nav_list2_delivery">
-                                무료배송
-                            </span>
-                            <span class="main_right_nav_list2_delivery">
-                                <img src="image/car.png"> 와배송
-                            </span>
-                        </p>
-                        <img src="image/main_right_nav2_list1.jpg" alt="">
-                    </div>
-                    <div class="main_right_nav_list2">
-                        <h2>2</h2>
-                        <p>착착착 붙이면 효과가 배가되는 메이드조이<br>5W 감전 살충기<br><span class="main_left_content_p2">39,000</span><span style="font-size:12px; font-weight : 500;">원</span> ⭐5.0
-                            <span class="main_right_nav_list2_delivery">
-                                <img src="image/car.png"> 와배송
-                            </span>
-                        </p>
-                        <img src="image/main_right_nav2_list2.jpg" alt="">
-                    </div>
-                    <div class="main_right_nav_list2">
-                        <h2>3</h2>
-                        <p>[벌써와배송]보존기간 3배 곰돌이 푸 캐릭<br>터와 만난 반찬통의 혁명 푸레시<br><span class="main_left_content_p2">34,900</span><span style="font-size:12px; font-weight : 500;">원</span> ⭐4.7
-                            <span class="main_right_nav_list2_delivery">
-                                무료배송
-                            </span>
-                            <span class="main_right_nav_list2_delivery">
-                                <img src="image/car.png"> 와배송
-                            </span>
-                        </p>
-                        <img src="image/main_right_nav2_list3.jpg" alt="">
-                    </div>
-                    <div class="main_right_nav_list2">
-                        <h2>4</h2>
-                        <p>[NUPHY] 누피 Halo75 기계식 키보드 블루<br>투스 무선 유선 헤일로<br><span class="main_left_content_p2">219,000</span><span style="font-size:12px; font-weight : 500;">원</span> ⭐4.5
-                            <span class="main_right_nav_list2_delivery">
-                                무료배송
-                            </span>
-                        </p>
-                        <img src="image/main_right_nav2_list4.jpg" alt="">
-                    </div>
-                    <div class="main_right_nav_list2">
-                        <h2>5</h2>
-                        <p>[펠리칸 케이스] 프로들의 아이덴티티 1535<br>AIR DESERT TAN<br><span class="main_left_content_p2">381,000</span><span style="font-size:12px; font-weight : 500;">원</span> ⭐5.0
-                            <span class="main_right_nav_list2_delivery">
-                                무료배송
-                            </span>
-                        </p>
-                        <img src="image/main_right_nav2_list5.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div class="footer_hr">
-            <div class="footer_hr_left">
-                <ul>
-                    <li>정책 · 약관&nbsp<svg viewBox="0 0 40 40"  class="rotate" ><path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path></svg></li>
-                    <li><b>개인정보처리방침&nbsp</b><svg viewBox="0 0 40 40"  class="rotate" ><path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path></svg></li>
-                </ul>
-            </div>
-            <div class="footer_hr_right">
-                <ul>
-                    <li>제휴문의&nbsp<svg viewBox="0 0 40 40"  class="rotate" ><path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path></svg></li>
-                    <li>공지사항&nbsp<svg viewBox="0 0 40 40" ><path d="M31.42 35.84h-27V8.4h14.76v-2H2.42v31.44h31V22.55h-2v13.29z"></path><path d="M37.32 15.41l-.01-13-12.99.01v2l9.72-.01-18.19 19.42 1.46 1.37 18-19.22.01 9.43h2z"></path></svg></li>
-                    <li>인재채용&nbsp<svg viewBox="0 0 40 40"  ><path d="M31.42 35.84h-27V8.4h14.76v-2H2.42v31.44h31V22.55h-2v13.29z"></path><path d="M37.32 15.41l-.01-13-12.99.01v2l9.72-.01-18.19 19.42 1.46 1.37 18-19.22.01 9.43h2z"></path></svg></li>
-                    <li>SNS&nbsp<svg viewBox="0 0 40 40"  class="rotate" ><path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path></svg></li>
-                    <li><b>Language</b>&nbsp<svg viewBox="0 0 40 40"  class="rotate" ><path d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path></svg></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <footer style="border:0px">
-        <div class="footer_text">
-            <div class="footer_text_left">
-                <span class="what"></span><p class = 'cs'>&nbsp&nbsp와디즈 고객센터</p>
-                <ul>
-                    <li>채팅 상담하기&nbsp&nbsp<svg viewBox="0 0 40 40">
-                        <path id ='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
-                    </svg></li>
-                    <li>문의 등록하기&nbsp&nbsp<svg viewBox="0 0 40 40">
-                        <path id ='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
-                    </svg></li>
-                    <li>도움말 센터 바로가기&nbsp&nbsp<svg viewBox="0 0 40 40">
-                        <path id ='color' d="M28 20L15 33l-1.4-1.4L25.2 20 13.6 8.4 15 7l13 13z"></path>
-                    </svg></li>
-                </ul>
-                <hr>
-                <p>상담 가능 시간</p>
-                <p>평일 오전 9시 ~ 오후 6시 (주말, 공휴일 제외)</p>
-            </div>
-            <div class="footer_text_right">
-                <p>와디즈(주) | 대표이사 신혜성 | 사업자등록번호 258-87-01370 | 통신판매업신고번호 2021-성남분당C-1153 | 경기 성남시 분당구 판교로 242 PDC A동 402호<br>이메일 상담 info@wadiz.kr | 유선 상담 1661-9056 &nbsp;<b>©wadiz Co., Ltd.</b></p>
-                <p>
-                    일부 상품의 경우 와디즈는 통신판매중개자이며 통신판매 당사자가 아닙니다.<br>해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.
-                </p>
                 <div>
-                    <div>
-                        <p><img src="image/android.png"> Android앱</p>
-                    </div>
-                    <div>
-                        <p><img src="image/apple.png"> iOS앱</p>
-                    </div>
+                    <p><img src="image/android.png"> Android앱</p>
+                </div>
+                <div>
+                    <p><img src="image/apple.png"> iOS앱</p>
                 </div>
             </div>
         </div>
-    </footer>
-    <script src="index.js"></script>
+    </div>
+</footer>
+<script src="index.js"></script>
 </body>
+
 </html>
