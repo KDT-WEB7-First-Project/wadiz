@@ -1,0 +1,136 @@
+.login-wrapper {
+  text-align: center;
+  height: 350px;
+  box-sizing: border-box;
+  width: 300px;
+  margin-left: 540px;
+  display: block;
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+  justify-items: center;
+}
+
+
+
+body{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.login-wrapper > h3{
+  font-size: 23px;
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+
+#login-form > input{
+  transition-property: border-color, height, padding-right, color;
+  transition-duration: 0.2s, 0s;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: #fff;
+  padding: 7px;
+  width: 100%;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.84);
+  margin-top: 10px;
+}
+#login-form > input::placeholder{
+  color: #D2D2D2;
+}
+
+#login-form > input[type="submit"]{
+  color: #fff;
+  font-size: 13px;
+  background-color: #00c4c4;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#login-form > input[type="submit2"]{
+  color: #fff;
+  font-size: 13px;
+  background-color: #fee500;;
+  margin-top: 10px;
+  text-align: center;
+  color:black;
+  font-weight: bold;
+}
+#login-form > input[type="submit3"]{
+  color: #fff;
+  font-size: 13px;
+  background-color:#00d337;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.c{
+  text-decoration: none !important;
+  color: gray;
+}
+
+.svgs{
+  position: relative;
+  margin-top: 45px;
+
+}
+
+.svg1{
+  background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 1px;
+    color: gray;
+}
+
+.svg2{
+  background-color: #1877f2;
+    width: 40px;
+    height: 40px;
+    padding: 11px;
+    border-radius: 20px;
+    color: white;
+}
+
+.svg3{
+  background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 13px;
+    border-radius: 20px;
+    color: white;
+}
+
+p{
+  font-size: 10px;
+  margin-top: -20px !important;
+}
+
+.container-md {
+  margin-left: 45% !important;
+  width: 100px !important;
+  height: 10px;
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+}
+
+.nav justify-content-end{
+  font-size: 20px;
+  font-weight: bold;
+}
+
