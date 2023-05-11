@@ -15,14 +15,14 @@
     <!-- header -->
     <header id="header">
       <div class="container">
-        <h1><a href="#"><img src="img/wadizlogo.png" alt=""></a></h1>
+        <h1><a href="index.html"><img src="img/wadizlogo.png" alt=""></a></h1>
 
         <ul class="nav">
-          <li><a href="#" style="color:#00b2b2">오픈예정</a></li>
+          <li><a href="sub.html" style="color:#00b2b2">오픈예정</a></li>
           <li><a href="#">펀딩+</a></li>
-          <li><a href="#">프리오더</a></li>
+          <!-- <li><a href="#">프리오더</a></li> -->
           <li><a href="#">스토어</a></li>
-          <li><a href="#">더보기</a></li>
+          <li><a href="notice.html">공지사항</a></li>
         </ul>
 
         <div class="header_util">
@@ -537,7 +537,8 @@
     </footer>
 
     <script>
-
+      // 게시판 Tab 메뉴
+      
       const tabButton = $('.tab li a');
       const  tabContent = $('.con');
 
@@ -557,7 +558,6 @@
         tabContent.eq(i).addClass('on');
       }
       // 스크롤 
-
       $(".up").click(function(){
       window.scrollTo({top : 0, behavior: 'smooth'}); 
       });

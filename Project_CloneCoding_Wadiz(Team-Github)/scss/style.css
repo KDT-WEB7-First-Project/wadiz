@@ -805,21 +805,21 @@ a {
 .card-info .card-tab p {
   font: bold 15px/1 "Noto Sans KR";
 }
-.card-info .card-tab .nav {
+.card-info .card-tab .nav-items {
   display: flex;
 }
-.card-info .card-tab .nav .nav-item {
+.card-info .card-tab .nav-items .nav-item {
   margin-right: 10px;
   letter-spacing: -1px;
 }
-.card-info .card-tab .nav .nav-item:last-child {
+.card-info .card-tab .nav-items .nav-item:last-child {
   margin-right: 0;
 }
-.card-info .card-tab .nav .nav-item a {
+.card-info .card-tab .nav-items .nav-item a {
   color: black;
   font: 13px/1 "Noto Sans KR";
 }
-.card-info .card-tab .nav .nav-item .ons {
+.card-info .card-tab .nav-items .nav-item .ons {
   font: bold 13px/1 "Noto Sans KR";
 }
 .card-info .card-tab > .on {

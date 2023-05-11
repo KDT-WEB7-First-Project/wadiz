@@ -1,3 +1,4 @@
+// swiper JS 라이브러리 - 슬라이드배너
 const swiper = new Swiper('.wrap', {
     navigation :{
         nextEl :".swiper-button-next", 
@@ -21,7 +22,7 @@ const swiper = new Swiper('.wrap', {
     } 
  });
 
-
+//  slick 라이브러리 이용 배너 슬라이드
 $( document ).ready( function() {
 	$('.responsive').slick({
     infinite: true,
@@ -62,58 +63,20 @@ $( document ).ready( function() {
 
   } );
  
-// $('.nav li a ').click(function(e){
-//   e.preventDefault();
-//   $('.nav li a').toggle('on');
-
-// })
-
 let click = document.querySelector('.a');
-
-// function onclick(e){
-//   e.preventDefault();
-//   click.classList.toggle('.on');
-// }
-
-// click.onclick = function(e){
-//   e.preventDefault();
-//   // on.style.fontWeight = 'bold'
-//   // on.setAttribute('class', 'on');
-
-
-
-// };
-
-// const nav = document.querySelectorAll('.nav-item a');
-// for(let i =0; i<nav.length; i++){
-//   nav[i].addEventListener('click', e=>{
-//     e.preventDefault();
-//     nav[i].classList.toggle('active');
-//   })
-// }
-
-// $(document).ready(function(){
-//   $('.nav-item > li').click(function(e){
-//     e.preventDefault();
-//     let idx = $(this).index();
-
-//     $(this).addClass("on").siblings().removeClass("on");
-//   })
-// })
-
 
 $('.box a').click(function(e){
   e.preventDefault();
 })
 
  // nav 클릭이벤트
- const tabButton = $('.nav li a');
+ const tabButton = $('.nav-items li a');
  const  tabContent = $('.cards');
 
  for (let i =0; i< tabButton.length; i++){
    tabButton.click(function(e){
      e.preventDefault();
-     if(event.target ==document.querySelectorAll('.nav li a')[i]){
+     if(event.target ==document.querySelectorAll('.nav-items li a')[i]){
        openTab(i)
      }
    })
