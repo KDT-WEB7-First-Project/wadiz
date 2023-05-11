@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://kit.fontawesome.com/a5faf288a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script defer src="basic.js"></script>
+    <title>sub_page</title>
+</head>
+<body>
+
+  <!-- header -->
+  <header id="header">
+    <div class="container">
+      <h1><a href="#"><img src="img/wadizlogo.png" alt=""></a></h1>
+
+      <ul class="nav">
+        <li><a href="#" style="color:#00b2b2">오픈예정</a></li>
+        <li><a href="#">펀딩+</a></li>
+        <li><a href="#">프리오더</a></li>
+        <li><a href="#">스토어</a></li>
+        <li><a href="#">더보기</a></li>
+      </ul>
+
+      <div class="header_util">
+        <div class="search">
+          <input type="text" >
+          <i class="fas fa-light fa-magnifying-glass"></i>
+        </div>
+        <div class="user">
+          <button type="button" class="user">로그인</button>
+          <button type="button" class="sign">회원가입</button>
+
+        </div>
+        <div class="funding">
+          <button type="button" class="fund">프로젝트 만들기</button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+    <!-- slider banner -->
+    <div class="wrap">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box1">
+                <a href="#">
+                    <img src="img/banner1.jpg" alt="">
+                    <h1>인기 TOP20 오픈예정 프로젝트</h1>
+                    <p>곧 오픈할 프로젝트 알림신청하기</p>
+                </a>
+            </div>
+            <div class="swiper-slide box2">
+                <a href="#">
+                    <img src="img/banner2.jpg" alt="">
+                    <h1>먼저 사용해보세요 무료 체험단 이벤트</h1>
+                    <p>곧 오픈될 펀딩, 무료 체험단 모집</p>
+                </a>
+            </div>
+            <div class="swiper-slide box3">
+                <a href="#">
+                    <img src="img/banner3.jpg" alt="">
+                    <h1>작가님과 함께 그린 호랑이형님 민화투</h1>
+                    <p>네이버웹툰과 함께하는 즐거움을 만나보세요</p>
+                </a>
+
+            </div>
+            <div class="swiper-slide box4">
+                <a href="#">
+                    <img src="img/banner4.jpg" alt="">
+                    <h1>감각적인 브랜드를 엄선한 부티크샵</h1>
+                    <p>전 세계의 진정성 있는 밸류를 엄선해 선보입니다.</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- 좌우버튼-->
+        <div class="swiper-button-next">
+          <span class="material-symbols-outlined">
+            arrow_forward
+          </span>
+        </div>
+        <div class="swiper-button-prev">
+          <span class="material-symbols-outlined">
+            arrow_back
+          </span>
+        </div>
+
+        <!-- 페이징버튼 -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <a href="#">
+        <h1 >먼저 만나보면 더 좋으니까</h1>
+        <p>공간 와디즈에서 미리 체험하고 얼리버드 혜택까지</p>
+        </div></a>
+    </div>
+
+    <div class="tab_icon">
+        <div class="slider">
+          <div class="responsive">
+            <div class="box">
+              <a href="#" >
+                <div class="image">
+                  <img src="img/boxicon_1.svg" alt="">
+                </div>
+                <p>전체</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_2.png" alt="">
+                </div>
+              <p>테크·가전</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_3.png" alt="">
+                </div>
+              <p>패션·잡화</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_4.png" alt="">
+                </div>
+              <p>홈·리빙</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_5.png" alt="">
+                </div>
+              <p>뷰티</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_6.png" alt="">
+                </div>
+              <p>푸드</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_7.png" alt="">
+                </div>
+              <p>출판</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_8.png" alt="">
+                </div>
+              <p>클래스·컨설팅</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_9.png" alt="">
+                </div>
+              <p>레저·아웃도어</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_10.png" alt="">
+                </div>
+              <p>스포츠</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_11.png" alt="">
+                </div>
+              <p>컬쳐·아티스트</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_12.png" alt="">
+                </div>
+              <p>캐릭터·굿즈</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_13.png" alt="">
+                </div>
+              <p>반려동물</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="#">
+                <div class="image">
+                  <img src="img/boxicon_14.png" alt="">
+                </div>
+              <p>베이비</p>
+              </a>
+            </div>
+          </div>
+          
+          
+          <a href="#" class="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </a>
+          <a href="#" class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+
+      </div>
+
+    <div class="card-info">
+        <div class="card-tab">
+          <p class="fw-bold">전체</p>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" data-target="#recomend" class="ons">추천순</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" data-target="#alarm">알림신청순</a>
+            </li>
+            <li class="nav-item">
+              <a  href="#" data-target="#open">오픈임박순</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" data-target="#recent">최신순</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" data-target="#sign">지지서명순</a>
+            </li>
+          </ul>
+        </div>  
+    </div>
+
+    <div class="card-box">
+      <div class="cards click" id="recomend">
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_1.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title ">[너 영국 다녀왔어?] 발음하나로 바뀌는 섹시한 영국 영어 마스터</h5>
+              <p class="card-text">영국영어원(British English Academy)</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_2.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">수분촉촉 앰플! 프랑스산 저분자 콜라겐이 피부속 침투 쫀쫀하고 탄력있게</h5>
+              <p class="card-text">네이쳐스메이드</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_3.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[네덜란드 공식수입] 우리가 아는 그 초코링, 밀크초콜릿맛 첫 런칭</h5>
+              <p class="card-text">밥상예술</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_4.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">밀폐와 보냉은 기본, 돌돌 접히는 휴대성까지ㅣ100% 실리콘 돌돌 텀블러</h5>
+              <p class="card-text">주식회사 신성실리콘</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_5.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[바이니캠풍기] 독보적감성랜턴LED조명+강력풍량+무선+회전+리모컨+타이머</h5>
+              <p class="card-text">바이니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_6.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">블랙박스는 쓰면서 블랙코드는 왜 안 써요? 일회용 안심번호가 무제한인데!</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_7.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[바이니캠풍기] 독보적감성랜턴LED조명+강력풍량+무선+회전+리모컨+타이머</h5>
+              <p class="card-text">바이니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/17(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_8.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">홈트 종착지 | TV 보며 편하게 타도 3가지 운동이 한번에 볼바이크</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_9.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">EMS마사지 +온열찜질 +블루투스까지 전문가가 제작한 스마트 마사지기</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_10.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">스테이크야? 돈까스야? 2cm 역대급 두께&육즙 팡-터지는 프리미엄 카츠</h5>
+              <p class="card-text">주식회사 잇츠뷰티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_11.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[담그기 E.A.S.Y] 달큰하게 당긴다, 오늘은 담금주가 딱EASY!</h5>
+              <p class="card-text">주식회사 테라브루</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/10(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_12.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">시원한 여름방석 | 이번여름은 방석하나로 해결하자! 아하토이 방석</h5>
+              <p class="card-text">주식회사 아하토이</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/14(일) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_13.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[앵콜-와디즈 특별구성] 트랜드를 읽다! 향기, 디자인 다 잡은 디퓨저</h5>
+              <p class="card-text">마리어스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_14.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마케팅,브랜딩,퍼스널브랜딩의 핵심 무기-스토리텔링 기초 강의</h5>
+              <p class="card-text">알리사</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_15.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">더 강력해진 무선 에어건&청소기ㅣ크기는 작아도 성능은 작지 않습니다</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_16.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마시기만해도 살이 쏘-옥 빠지는 마법의 음료! 어제보다 오늘 더 베러슬림</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_17.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">★블랙홀 극한 자력!★ 아이패드 1초 거치로 맥북답게 사용하는 법!</h5>
+              <p class="card-text">주식회사 케이안컴퍼니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_18.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[1인분 4천원] 6차 숙성으로 풍미 가득 돼지 맛의 근본, 잡솨요</h5>
+              <p class="card-text">잡솨요</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_19.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[세상 단 하나뿐인 , 인생 와인하이볼] 이젠 술도 취향타는 시대니까!!</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_20.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">세차 후 뿌리고 헹구면 코팅 끝? 유리막코팅 보다 좋은 독일 티타늄코팅!</h5>
+              <p class="card-text">큐피온</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_21.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[백억캔디] 구리구리입똥내, 근본부터 때려잡으러 왔습니다! 구강유산균캔디</h5>
+              <p class="card-text">탄단지식</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards" id="alarm">
+
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_2.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">수분촉촉 앰플! 프랑스산 저분자 콜라겐이 피부속 침투 쫀쫀하고 탄력있게</h5>
+              <p class="card-text">네이쳐스메이드</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_4.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">밀폐와 보냉은 기본, 돌돌 접히는 휴대성까지ㅣ100% 실리콘 돌돌 텀블러</h5>
+              <p class="card-text">주식회사 신성실리콘</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_6.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">블랙박스는 쓰면서 블랙코드는 왜 안 써요? 일회용 안심번호가 무제한인데!</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_8.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">홈트 종착지 | TV 보며 편하게 타도 3가지 운동이 한번에 볼바이크</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_10.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">스테이크야? 돈까스야? 2cm 역대급 두께&육즙 팡-터지는 프리미엄 카츠</h5>
+              <p class="card-text">주식회사 잇츠뷰티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_12.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">시원한 여름방석 | 이번여름은 방석하나로 해결하자! 아하토이 방석</h5>
+              <p class="card-text">주식회사 아하토이</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/14(일) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_14.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마케팅,브랜딩,퍼스널브랜딩의 핵심 무기-스토리텔링 기초 강의</h5>
+              <p class="card-text">알리사</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_16.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마시기만해도 살이 쏘-옥 빠지는 마법의 음료! 어제보다 오늘 더 베러슬림</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_18.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[1인분 4천원] 6차 숙성으로 풍미 가득 돼지 맛의 근본, 잡솨요</h5>
+              <p class="card-text">잡솨요</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_20.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">세차 후 뿌리고 헹구면 코팅 끝? 유리막코팅 보다 좋은 독일 티타늄코팅!</h5>
+              <p class="card-text">큐피온</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards" id="open">
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_1.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title ">[너 영국 다녀왔어?] 발음하나로 바뀌는 섹시한 영국 영어 마스터</h5>
+              <p class="card-text">영국영어원(British English Academy)</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_6.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">블랙박스는 쓰면서 블랙코드는 왜 안 써요? 일회용 안심번호가 무제한인데!</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_7.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[바이니캠풍기] 독보적감성랜턴LED조명+강력풍량+무선+회전+리모컨+타이머</h5>
+              <p class="card-text">바이니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/17(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_9.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">EMS마사지 +온열찜질 +블루투스까지 전문가가 제작한 스마트 마사지기</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_11.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[담그기 E.A.S.Y] 달큰하게 당긴다, 오늘은 담금주가 딱EASY!</h5>
+              <p class="card-text">주식회사 테라브루</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/10(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_12.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">시원한 여름방석 | 이번여름은 방석하나로 해결하자! 아하토이 방석</h5>
+              <p class="card-text">주식회사 아하토이</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/14(일) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_14.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마케팅,브랜딩,퍼스널브랜딩의 핵심 무기-스토리텔링 기초 강의</h5>
+              <p class="card-text">알리사</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_16.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마시기만해도 살이 쏘-옥 빠지는 마법의 음료! 어제보다 오늘 더 베러슬림</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_17.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">★블랙홀 극한 자력!★ 아이패드 1초 거치로 맥북답게 사용하는 법!</h5>
+              <p class="card-text">주식회사 케이안컴퍼니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_19.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[세상 단 하나뿐인 , 인생 와인하이볼] 이젠 술도 취향타는 시대니까!!</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards" id="recent">
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_6.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">블랙박스는 쓰면서 블랙코드는 왜 안 써요? 일회용 안심번호가 무제한인데!</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_9.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">EMS마사지 +온열찜질 +블루투스까지 전문가가 제작한 스마트 마사지기</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_10.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">스테이크야? 돈까스야? 2cm 역대급 두께&육즙 팡-터지는 프리미엄 카츠</h5>
+              <p class="card-text">주식회사 잇츠뷰티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_11.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[담그기 E.A.S.Y] 달큰하게 당긴다, 오늘은 담금주가 딱EASY!</h5>
+              <p class="card-text">주식회사 테라브루</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/10(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_12.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">시원한 여름방석 | 이번여름은 방석하나로 해결하자! 아하토이 방석</h5>
+              <p class="card-text">주식회사 아하토이</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/14(일) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_13.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[앵콜-와디즈 특별구성] 트랜드를 읽다! 향기, 디자인 다 잡은 디퓨저</h5>
+              <p class="card-text">마리어스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_14.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마케팅,브랜딩,퍼스널브랜딩의 핵심 무기-스토리텔링 기초 강의</h5>
+              <p class="card-text">알리사</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_15.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">더 강력해진 무선 에어건&청소기ㅣ크기는 작아도 성능은 작지 않습니다</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_16.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마시기만해도 살이 쏘-옥 빠지는 마법의 음료! 어제보다 오늘 더 베러슬림</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_17.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">★블랙홀 극한 자력!★ 아이패드 1초 거치로 맥북답게 사용하는 법!</h5>
+              <p class="card-text">주식회사 케이안컴퍼니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_18.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[1인분 4천원] 6차 숙성으로 풍미 가득 돼지 맛의 근본, 잡솨요</h5>
+              <p class="card-text">잡솨요</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_19.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[세상 단 하나뿐인 , 인생 와인하이볼] 이젠 술도 취향타는 시대니까!!</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_20.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">세차 후 뿌리고 헹구면 코팅 끝? 유리막코팅 보다 좋은 독일 티타늄코팅!</h5>
+              <p class="card-text">큐피온</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_21.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[백억캔디] 구리구리입똥내, 근본부터 때려잡으러 왔습니다! 구강유산균캔디</h5>
+              <p class="card-text">탄단지식</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards" id="sign">
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_2.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">수분촉촉 앰플! 프랑스산 저분자 콜라겐이 피부속 침투 쫀쫀하고 탄력있게</h5>
+              <p class="card-text">네이쳐스메이드</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_3.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[네덜란드 공식수입] 우리가 아는 그 초코링, 밀크초콜릿맛 첫 런칭</h5>
+              <p class="card-text">밥상예술</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_4.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">밀폐와 보냉은 기본, 돌돌 접히는 휴대성까지ㅣ100% 실리콘 돌돌 텀블러</h5>
+              <p class="card-text">주식회사 신성실리콘</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="#"><img src="img/sub_5.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[바이니캠풍기] 독보적감성랜턴LED조명+강력풍량+무선+회전+리모컨+타이머</h5>
+              <p class="card-text">바이니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_6.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">블랙박스는 쓰면서 블랙코드는 왜 안 써요? 일회용 안심번호가 무제한인데!</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_7.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[바이니캠풍기] 독보적감성랜턴LED조명+강력풍량+무선+회전+리모컨+타이머</h5>
+              <p class="card-text">바이니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/17(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_8.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">홈트 종착지 | TV 보며 편하게 타도 3가지 운동이 한번에 볼바이크</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_9.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">EMS마사지 +온열찜질 +블루투스까지 전문가가 제작한 스마트 마사지기</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_10.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">스테이크야? 돈까스야? 2cm 역대급 두께&육즙 팡-터지는 프리미엄 카츠</h5>
+              <p class="card-text">주식회사 잇츠뷰티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_11.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[담그기 E.A.S.Y] 달큰하게 당긴다, 오늘은 담금주가 딱EASY!</h5>
+              <p class="card-text">주식회사 테라브루</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/10(수) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_12.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">시원한 여름방석 | 이번여름은 방석하나로 해결하자! 아하토이 방석</h5>
+              <p class="card-text">주식회사 아하토이</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/14(일) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_13.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[앵콜-와디즈 특별구성] 트랜드를 읽다! 향기, 디자인 다 잡은 디퓨저</h5>
+              <p class="card-text">마리어스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_14.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마케팅,브랜딩,퍼스널브랜딩의 핵심 무기-스토리텔링 기초 강의</h5>
+              <p class="card-text">알리사</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_15.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">더 강력해진 무선 에어건&청소기ㅣ크기는 작아도 성능은 작지 않습니다</h5>
+              <p class="card-text">주식회사 시큐로스</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_16.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">마시기만해도 살이 쏘-옥 빠지는 마법의 음료! 어제보다 오늘 더 베러슬림</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_17.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">★블랙홀 극한 자력!★ 아이패드 1초 거치로 맥북답게 사용하는 법!</h5>
+              <p class="card-text">주식회사 케이안컴퍼니</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_18.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[1인분 4천원] 6차 숙성으로 풍미 가득 돼지 맛의 근본, 잡솨요</h5>
+              <p class="card-text">잡솨요</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_19.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[세상 단 하나뿐인 , 인생 와인하이볼] 이젠 술도 취향타는 시대니까!!</h5>
+              <p class="card-text">(주)세렌디피티</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/09(화) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_20.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">세차 후 뿌리고 헹구면 코팅 끝? 유리막코팅 보다 좋은 독일 티타늄코팅!</h5>
+              <p class="card-text">큐피온</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href=""><img src="img/sub_21.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">[백억캔디] 구리구리입똥내, 근본부터 때려잡으러 왔습니다! 구강유산균캔디</h5>
+              <p class="card-text">탄단지식</p>
+              <button type="button">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <span>05/22(월) 오픈 알림 신청</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 하단 고정 nav메뉴 -->
+    <div class="nav-button">
+      <button class="btn hide">
+        <div class="up">
+        </div>
+      </button>
+      <button class="btn">
+        <div class="button1">
+        </div>
+      </button>
+      <button  class="btn">
+        <div class="button2"></div>
+      </button>
+     
+    </div>
+
+    <footer id="footer">
+      <div class="footer_container_top">
+        <div class="menu_bar">
+          <div class="menu_bar_left">
+            <ul>
+              <li>정책 · 약관<i class="fas fa-thin fa-chevron-down"></i></li>
+              <li>개인정보처리방침<i class="fas fa-thin fa-chevron-down"></i></li>
+            </ul>
+          </div>
+          <div class="menu_bar_right">
+            <ul>
+              <li><a href="#">제휴문의<i class="fas fa-thin fa-chevron-down"></i></a></li>
+              <li><a href="#">공지사항<i class="fas fa-sharp fa-light fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="#">인재채용<i class="fas fa-sharp fa-light fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="#">SNS<i class="fas fa-thin fa-chevron-down"></i></a></li>
+              <li><a href="#">Language<i class="fas fa-thin fa-chevron-down"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_container_bottom">
+        <div class="footer_container_inner">
+          <section class="footer_container_left">
+            <strong class="footer_title">
+              와디즈 고객센터</strong>
+            <div class="footer_button">
+              <ul>
+                <li><a href="#">채팅 상담하기<i class="fas fa-thin fa-chevron-right"></i></a></li>
+                <li><a href="#">문의 등록하기<i class="fas fa-thin fa-chevron-right"></i></a></li>
+                <li><a href="#">도움말 센터 바로가기<i class="fas fa-thin fa-chevron-right"></i></a></li>
+              </ul>
+            </div>
+            <div class="footer_explain">
+              <p>상담 가능 시간</p>
+              <span>평일 오전 9시 ~ 오후 6시 (주말, 공휴일 제외)</span>
+            </div>
+          </section>
+          <section class="footer_container_right">
+            <address>
+              <ul class="footerInfo">
+                <li>와디즈(주)</li>
+                <li>대표이사 신혜성</li>
+                <li>사업자등록번호 258-87-01370</li>
+                <li>통신판매업신고번호 2021-성남분당C-1153</li>
+                <li>경기 성남시 분당구 판교로 242 PDC A동 402호</li>
+              </ul>
+              <div class="footer_contact">
+                <ul>
+                  <li>이메일 상담 info@wadiz.kr</li>
+                  <li>유선 상담 1661-9056</li>
+                </ul>
+                <span class="copyright">© wadiz Co., Ltd.</span>
+              </div>
+            </address>
+            <div class="footer_notice">
+              <p>일부 상품의 경우 와디즈는 통신판매중개자이며 통신판매 당사자가 아닙니다.</p>
+              <p>해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.</p>
+            </div>
+            <div class="footer_logo">
+              <ul>
+                <li><a href="#"><i class="fa-brands fa-google-play"></i>Android앱</a></li>
+                <li><a href="#"><i class="fa-brands fa-apple"></i>iOS앱</a></li>
+              </ul>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

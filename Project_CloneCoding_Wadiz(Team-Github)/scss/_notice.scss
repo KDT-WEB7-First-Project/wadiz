@@ -1,0 +1,558 @@
+@charset 'utf-8';
+
+#header{
+    width: 1440px;
+    height : 55px;
+    margin : 0 auto;
+    font-family: 'Noto Sans KR', 'Roboto';
+    letter-spacing: -2px;
+    padding: 0px 80px;
+    border-bottom: 1px solid #f2f4f6;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1440px;
+        height: 100%;
+        h1{
+            display: inline-block;
+            margin: 0;
+            a{
+                display: block;
+                img{
+                    margin-top: 9px;
+                    width: 110px;
+                    height: 35px;
+                }
+            }
+        }
+        .nav{
+            margin-left: 25px;
+            vertical-align: top;
+            width: auto;
+            li{               
+                display: inline-block;
+                vertical-align: middle;
+                color: #212529;
+                a{
+                    font: 700 20px/30px 'Noto Sans KR';
+                    letter-spacing: -.6px;
+                    position: relative;
+                    padding: 14px 16px;
+                    text-align: center;
+                    color: #212529;
+                }
+            }
+
+        }
+
+        .header_util{
+            top: 0;
+            right: 0;
+            vertical-align: top;
+            margin-left: 80px;
+
+            .search{
+                display: inline-block;
+                position: relative;
+                padding: 8px 16px 8px 0;
+                min-width: 200px;
+                
+                input{
+                    width: 300px;
+                    border: 1px solid #00c4c4;
+                    height: 40px;
+                    font: 14px/20px 'Noto Sans KR';
+                    border-radius: 4px;
+                }
+                i{
+                    position: absolute;
+                    top: 32%;
+                    right: 21px;
+                    left: auto;
+                    z-index: 1;
+                    width: 25px; height: 25px;
+                    font-size: 18px;
+                }
+            }
+            .user{
+                display: inline-block;
+                white-space: nowrap;
+
+                .user, .sign{
+                    display: inline-block;
+                    cursor: pointer;
+                    padding: 0 8px;
+                    text-align: center;
+                    color: #495057;
+                    font: 15px/30px 'Noto Sans KR';
+                    margin-right: 5px;
+                    background: white;
+                    border: none;
+                }
+            }
+            .funding{
+                margin-left: 12px;
+                display: inline-block;
+                .fund{
+                    margin-top: 9px;
+                    border-radius: 4px;
+                    border: 1px solid #00c4c4;
+                    color: #00c4c4;
+                    padding: 9px 16px;
+                    font: 14px/1.45 'Noto Sans KR';
+                    background: white;
+                }
+
+            }
+        }
+    }
+}
+
+
+.notice{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    h1{font: bold 30px/1 'Noto Sans KR';}
+    border-bottom: 1px solid #999;
+
+    .tab{
+        margin-top: 40px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+
+        li{
+            a{
+                font: 15px/1 'Noto Sans KR';
+                color: black;
+                margin-right: 15px;
+
+            }
+
+            
+        }
+        .active{
+            font-weight: bold;
+            color: #00b2b2;
+            border-bottom: 3px solid #00b2b2;
+            padding-bottom: 9px;
+        }
+
+
+        
+    }
+
+}
+
+.board{
+    width: 800px;
+    margin: 0 auto;
+    .con{
+        display: none;
+        .articles{
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            min-height: 120px;
+        
+            .left{
+                margin-right: 30px;
+                .article{
+                    color: black;
+                    font: 13px/1 'Noto Sans KR';
+                    letter-spacing: -1px;
+        
+                    .event{
+                        color: #00b2b2;
+                    }
+                    .ing{
+                        color: #696f75;
+                    }
+                    .import{
+                        color: #4462ee;
+                    }
+                    .info{
+                        p{
+                            font: bold 16px/1.3 'Noto Sans KR';
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                        }
+                        .date{
+                            font: 12px/1.3 'Noto Sans KR';
+                            color: #696f75;
+                        }
+                    }
+        
+                }
+        
+            }
+        
+            .right{
+                padding: 15px;
+        
+                img{
+                    width: 100px;
+                    height: 100px;
+                    background-size: cover;
+                }
+            }
+            &:hover{
+                .info p{
+                    text-decoration: underline;
+                }
+            }
+        
+            &:last-child{
+                margin-bottom: 40px;
+            }
+        
+        }
+    }
+    >.on{
+        display: block;
+        font-weight: bold;
+    }
+   
+
+    .pagination{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        .prev{
+            font:bold 12px/30px 'Noto Sans KR'; color:#a3a8ab; text-align:center; 
+            i{
+                width:50px; height:30px; 
+            }
+        }
+        .next{
+            font:bold 12px/30px 'Noto Sans KR'; color:#a3a8ab; text-align:center; 
+
+            i{
+                width:50px; height:30px; 
+            }
+        }
+        .numbers{
+            display: inline-block;
+            text-align: center;
+            font-size: 0;
+            a{
+                display:inline-block; width:20px; height:30px;
+                font: bold 13px/30px 'Noto Sans KR'; color:#666; text-align:center; 
+                margin:0 5px; 
+                transition:0.5s; 
+                &:hover{
+                    color: #00b2b2;
+                }
+            }
+        }
+    }
+
+    .search{
+        width: 100%;
+        margin-bottom: 30px;
+        position: relative;
+        
+        form{
+            display: flex;
+            justify-content: center;
+            color: #34383a;
+            .search-filter{
+                margin-right: 5px;
+                #searchFilter{
+                    text-align: center;
+                    width: 100px;
+                    height: 36px;
+                    background-color: white;
+                    border: 1px solid #dadce0;
+                    font: 13px/36px 'Noto Sans KR';
+                }
+            }
+
+            .search-text{
+                height: 35px;
+
+                .search-form{
+                    font: 14px/36px 'Noto Sans KR';
+                    padding: 0px 10px;
+                    border: 1px solid #dadce0;
+                    width: 180px;
+                }
+                button{
+                    width: 50px;
+                    height: 36px;
+                    background-color: #f5f7fa;
+                    border: solid 1px #dadce0;
+                    position: absolute;
+                    top: 0;
+                    margin-left: -20px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                
+                }
+            }
+
+            
+            
+        }
+    }
+
+}
+
+
+.text-hidden{
+    text-indent: -9999px;
+    display: block;
+    height: 1px;
+    margin-top: -1px;
+    opacity: 0;
+}
+
+#footer {
+    width: 100%;
+    color: #212121;
+    font-size: 12px;
+    position: relative;
+    padding: 0 80px;
+    max-width: 1440px;
+    margin-top: 50px;
+
+    .footer_container_top{
+        border-top: 1px solid #e9ecef;
+        border-bottom: 1px solid #e9ecef;
+        text-align: left;
+        .menu_bar{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            justify-content: space-between;
+            .menu_bar_left{
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    color: #495057;
+                    cursor: pointer;
+                    height: 40px;
+                    justify-content: flex-start;
+                    text-align: left;
+                    font: 14px/20px 'Noto Sans KR';
+                    li{
+                        padding: 0px 12px 0 16px;
+                        width: auto;
+                        &:nth-of-type(2){
+                            font-weight: 700;
+                        }
+                        i{
+                            margin-left: 5px;font-size: 14px;
+                            color: rgba(0,0,0,.54);
+                        }
+                    }
+                }
+            }
+            .menu_bar_right{
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    color: #495057;
+                    cursor: pointer;
+                    height: 40px;
+                    justify-content: flex-start;
+
+                    li{
+                        padding: 0px 12px 0 16px;
+                        width: auto;
+                        text-align: left;
+                        font: 14px/20px 'Noto Sans KR';
+                        a{
+                            display: block;
+                            color:#495057 ;
+
+                            i{
+                                margin-left: 5px;font-size: 14px;
+                                color: rgba(0,0,0,.54);
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .footer_container_bottom{
+        .footer_container_inner{
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+            margin: 0 auto;
+            .footer_container_left{
+                padding: 40px 0 80px;
+                width: 255px;
+
+                .footer_title{
+                    margin-bottom: 4px;
+                    letter-spacing: -.6px;
+                    font: 700 18px/28px 'Noto Sans KR';
+                    &::before{
+                        background: url(../img/question.png) no-repeat center/18px 18px;
+                        content: "";
+                        width: 18px;
+                        height: 18px;
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+                }
+
+                .footer_button{
+                    font: 16px/28px 'Noto Sans KR';
+                    letter-spacing: -.3px;
+                    width: 100%;
+                    border-bottom: 1px solid #f2f4f6;
+                    text-align: left;
+                    padding-bottom: 20px;
+                    ul{
+                        text-align: left;
+                        li{
+                            margin: 4px 0;
+                            a{
+                                color: #495057;
+                                i{
+                                    margin-left: 15px;font-size: 14px;
+                                    color: rgba(0,0,0,.54);
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .footer_explain{
+                    color: #868e96;
+                    font: 14px/20px 'Noto Sans KR';
+                    padding-top: 20px;
+                    border-top: 1px solid #f2f4f6;
+                    p{
+                        margin-bottom: 4px;
+                        font: 700 14px/20px 'Noto Sans KR';
+                    }
+                    span{
+                        font: 13px/20px 'Noto Sans KR';
+                        letter-spacing: -.6px;
+                    }
+                }
+
+            }
+            .footer_container_right{
+                padding: 40px 0 80px;
+                address{
+                    font-style: normal;
+                    .footerInfo{
+                        li{
+                            font: 14px/20px 'Noto Sans KR';
+                            font-style: normal;
+                            display: inline;
+                            color: #495057;
+                            letter-spacing: -.5px;
+                            &::after{
+                                content: "|";
+                                color: #dde2e6;
+                                margin: 0px 5px;
+                            }
+                            &:last-child{
+                                &::after{
+                                    content: "";
+                                    display: none;
+                                }
+                            }
+
+                        }
+                    }
+                    .footer_contact{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        ul{
+                            margin-top: 4px;
+                            li{
+                                font: 14px/20px 'Noto Sans KR';
+                                font-style: normal;
+                                display: inline;
+                                color: #495057;
+                                &:nth-of-type(1){
+                                    &::after{
+                                        content: "|";
+                                        color: #dde2e6;
+                                        margin: 0px 5px;
+                                    }
+                                }
+                                
+                            }
+                        }
+                        .copyright{
+                            display: inline-block;
+                            margin-top: 4px;
+                            color: black;
+                            font: 900 14px/20px 'Noto Sans KR';
+                            margin-left: 10px;
+                            letter-spacing: -.5px;
+                        }
+                    }
+
+
+                }
+                .footer_notice{
+                    color: #868e96;
+                    margin-top: 16px;
+                    p{
+                        font: 400 14px/20px 'Noto Sans KR';
+                        display: block;
+                    }
+                }
+
+                .footer_logo{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 37px;
+                    ul{
+                        display: flex;
+                        flex-direction: row;
+                        li{
+                            display: flex;
+                            flex-direction: row;
+                            margin-right: 20px;
+                            margin-top: 40px;
+                            a{
+                                font: 14px/20px 'Noto Sans KR';
+                                color: #212529;
+                                display: block;
+                                i{
+                                    margin-right: 8px;font-size: 20px;
+                                    color: rgba(0,0,0,.54);
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
